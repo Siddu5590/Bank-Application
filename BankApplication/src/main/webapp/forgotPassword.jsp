@@ -62,20 +62,20 @@
         <h2>Reset PIN</h2>
         <div class="mb-2">
           <label for="exampleInputEmail1" class="form-label">Enter your Email</label>
-          <input type="email" name="mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Mail">
+          <input type="email" name="mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Mail" required="required">
         </div>
         <div class="mb-2">
           <label for="exampleInputEmail1" class="form-label">Enter your Phone</label>
-          <input type="text" name="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Phone">
+          <input type="text" name="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Phone" required="required">
         </div>
         
         <div class="mb-2">
           <label for="exampleInputPassword1" class="form-label">Enter New PIN</label>
-          <input type="password" name="pin" class="form-control" id="exampleInputPassword1" placeholder="Enter Your PIN" >
+          <input type="password" name="pin" class="form-control" id="exampleInputPassword1" placeholder="Enter Your PIN" required="required">
         </div>
         <div class="mb-2">
             <label for="exampleInputPassword1" class="form-label">Re-Enter New PIN</label>
-            <input type="password" name="confirm" class="form-control" id="exampleInputPassword1" placeholder="Re-Enter Your PIN" >
+            <input type="password" name="confirm" class="form-control" id="exampleInputPassword1" placeholder="Re-Enter Your PIN" required="required">
           </div>
         
        <center><button type="submit" class="btn btn-primary">Reset PIN</button>
