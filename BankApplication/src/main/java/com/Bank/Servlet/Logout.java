@@ -15,10 +15,9 @@ public class Logout extends HttpServlet{
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		String logout=req.getParameter("logout");
 		HttpSession session=req.getSession(false);
 		
-		if(logout.equals("Logout"))
+		if(session!=null)
 		{
 			session.invalidate();
 			req.setAttribute("success", "Logout Successful..");
